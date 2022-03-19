@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Clima</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-md-4 mx-auto text-center">
+        <div class="card">
+          <h1 id="weather-location" class="h3"></h1>
+          <h3 id="weather-description" class="h4"></h3>
+          <h3 id="weather-string"></h3>
+          <ul class="list-group mt-4">
+
+            <li id="weather-humidity" class="list-group-item"></li>
+            <li id="weather-wind" class="list-group-item"></li>
+            <br>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <form action="" id="weather-form">
+              <div class="form-group">
+                <input type="text" name="" id="city" class="form-control" placeholder="City" autofocus>
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="text" name="" id="country-code" class="form-control" placeholder="Country Code">
+              </div>
+              <br>
+              <div class="form-group">
+                <button class="btn btn-dark btn-block" id="weather-change-btn">Clima</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
